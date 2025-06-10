@@ -1,12 +1,12 @@
 ['ravi', 'purva', 10.5, True]
 
 ['ravi', 78, 'purva', True]
-# list index out of range
-# takes only one argument only
+error :- list index out of range
+error :- takes only one argument
 
 
 ['ravi', 78, 'purva', 10.5]
 
 ['ravi', 78, 10.5, True]
-# index out of range
-# except at most 1 argument
+error :- index out of range
+error :- except at most one argument
